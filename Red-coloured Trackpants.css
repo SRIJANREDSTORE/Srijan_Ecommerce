@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar ul li{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+h4{
+    color: #000;
+    font-size: 20px;
+    font-weight: 1000px;
+}
+h6{
+    color: gray;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    cursor: pointer;
+    text-align: center;
+}
+.row button{
+   
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #e67416ff;
+    color: aliceblue;
+    padding: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: 0.3s all;
+}
+.sproduct select{
+    display: block;
+    padding: 5px 10px;
+}
+.sproduct input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.sproduct input:focus{
+    outline: none;
+}
